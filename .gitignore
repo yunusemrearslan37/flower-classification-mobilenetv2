@@ -1,0 +1,28 @@
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Model & data artifacts (keep repo small)
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+data/
+datasets/
+raw/
+processed/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
