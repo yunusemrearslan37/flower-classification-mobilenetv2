@@ -2,6 +2,5 @@ tensorflow>=2.15
 kagglehub
 scikit-learn
 matplotlib
-seaborn
 numpy
 Pillow
