@@ -47,15 +47,17 @@ Kaggle [Flowers](https://www.kaggle.com/datasets/l3llff/flowers) veri setinde **
 
 - Python, TensorFlow / Keras
 - scikit-learn (metrikler)
-- Matplotlib / Seaborn (grafikler)
+- Matplotlib (grafikler)
 - kagglehub (veri seti indirme)
 - Google Colab (T4 GPU önerilir)
 
 ## Nasıl çalıştırılır?
 
-1. [`sinir_final.ipynb`](sinir_final.ipynb) dosyasını [Google Colab](https://colab.research.google.com) veya Jupyter'da aç (yukarıdaki Colab rozetine tıklaman yeterli).
+1. [`sinir_final.ipynb`](sinir_final.ipynb) dosyasını [Google Colab](https://colab.research.google.com)'da aç (yukarıdaki Colab rozetine tıklaman yeterli).
 2. Runtime → Change runtime type → **GPU**.
 3. Hücreleri yukarıdan aşağı sırayla çalıştır.
+
+> Not: Ana eğitim akışı Jupyter'da da çalışır; ancak en alttaki "kendi görselini yükle" test hücresi `google.colab` kullandığı için Colab'a özeldir.
 
 ```bash
 pip install -r requirements.txt
